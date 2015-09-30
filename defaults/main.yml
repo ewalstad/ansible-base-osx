@@ -9,7 +9,7 @@ base_osx:
       - homebrew/dupes
       - homebrew/science
       - homebrew/versions
-      - nviennot/tmate
+      #- nviennot/tmate
       - phinze/cask
     # /taps -------------------------------------------------------- }}}
 
@@ -21,21 +21,21 @@ base_osx:
       - brew-cask
       - chromedriver
       - cloc
-      - contacts
+      #- contacts
       - coreutils
       - cowsay
       - csshx
       - ctags
-      - ec2-api-tools
-      - elasticsearch
-      - elixir
+      #- ec2-api-tools
+      #- elasticsearch
+      #- elixir
       - erlang
-      - exiftool
-      - fdupes
-      - figlet
-      - fish
-      - fortune
-      - geoip
+      #- exiftool
+      #- fdupes
+      #- figlet
+      #- fish
+      #- fortune
+      #- geoip
       - git
       - git-extras
       - gnu-sed
@@ -43,46 +43,46 @@ base_osx:
       - graphviz
       - htop-osx
       - imagemagick
-      - irssi
+      #- irssi
       - john
-      - jq
-      - leiningen
+      #- jq
+      #- leiningen
       - libgit2
       - macvim
-      - mariadb
-      - mongodb
-      - mpc
-      - mpd
-      - msmtp
-      - mtr
-      - mutt
-      - ncdu
-      - nginx
+      #- mariadb
+      #- mongodb
+      #- mpc
+      #- mpd
+      #- msmtp
+      #- mtr
+      #- mutt
+      #- ncdu
+      #- nginx
       - nmap
       - node
-      - notmuch
-      - offline-imap
+      #- notmuch
+      #- offline-imap
       - postgresql
-      - rabbitmq
-      - reattach-to-user-namespace
-      - rebar
-      - rethinkdb
+      #- rabbitmq
+      #- reattach-to-user-namespace
+      #- rebar
+      #- rethinkdb
       - ruby
       - selenium-server-standalone
       - sqlite
       - task
       - the_silver_searcher
-      - tmate
+      #- tmate
       - tmux
       - urlview
       - vim
       - vimpager
-      - vnstat
+      #- vnstat
       - watchman
       - wget
       - wireshark
-      - xapian
-      - zeromq
+      #- xapian
+      #- zeromq
       - zsh
     # /packages ---------------------------------------------------- }}}
 
@@ -93,10 +93,10 @@ base_osx:
       - caffeine
       - charles
       - iterm2
-      # - dropbox
+      - dropbox
       # - little-snitch
       # - size-up
-      # - virtualbox
+      - virtualbox
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
@@ -111,11 +111,11 @@ base_osx:
       - SQLAlchemy
       - Sphinx
       - Werkzeug
-      - boto
+      #- boto
       - bpython
-      - dulwich
+      #- dulwich
       - flake8
-      - hieroglyph
+      #- hieroglyph
       - httpie
       - mercurial
       - passlib
